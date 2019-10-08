@@ -1,0 +1,226 @@
+/* ========== speacial Device for 320px================== */
+@media(min-width:320px) and (max-width: 521px) {
+  .bnnr-2 .bnnr_content h3 {
+    margin-left: 18px;
+  }
+
+  .bnnr-2 .bnnr_content h1 {
+    display: none
+  }
+
+  .bnnr-2 .bnnr_content p {
+    text-align: center;
+    margin-left: -66px;
+  }
+
+  .bnnr-2 .bnnr_content .bnnr_btn {
+    margin-left: -20px;
+  }
+
+  .bnnr-2 {
+    background-position: center;
+  }
+
+  /* banner-3 */
+
+  .bnnr-3 .bnnr_content h3 {
+    margin-left: 18px;
+  }
+
+  .bnnr-3 .bnnr_content h1 {
+    display: none
+  }
+
+  .bnnr-1 .bnnr_content h1 {
+    display: none
+  }
+
+  .bnnr-3 .bnnr_content p {
+    text-align: center;
+    margin-left: -66px;
+  }
+
+  .bnnr-3 .bnnr_content .bnnr_btn {
+    margin-left: -20px;
+  }
+
+  .section_title .line-1 {
+    width: 47px;
+    height: 2px;
+    background-color: #f9b023;
+    display: block;
+    margin: 10px 0 2px 39%;
+  }
+}
+
+
+
+
+/* ==== media for 767px devices====== */
+
+@media (max-width: 767px) {
+
+  /* ===header section=== */
+  #header {
+    position: fixed;
+    top: 0;
+  }
+
+
+  #header .navbar-brand,
+  #header.position-fixed .navbar-brand {
+    padding: 13px 30px;
+    top: -5px;
+  }
+
+
+  .navbar-collapse {
+    text-align: center;
+    margin-top: 10px;
+    background: #555;
+  }
+
+  .navbar button {
+    background: #fff;
+  }
+
+  .navbar-nav {
+    margin-top: 10px;
+  }
+
+  .navbar-nav>.nav-item>.nav-link {
+    line-height: 40px;
+    text-align: center;
+  }
+
+
+  .navbar-nav>.nav-item>.nav-link.active::after,
+  .navbar-nav>.nav-item>.nav-link:hover::after {
+    width: 0px;
+  }
+
+  .section_title .line-1 {
+    width: 47px;
+    height: 2px;
+    background-color: #f9b023;
+    display: block;
+    margin: 10px 0 2px 43%;
+  }
+
+
+
+
+  /* ====banner-Section======== */
+
+
+  .bnnr_content h3 {
+    font-size: 20px;
+  }
+
+  .bnnr_content h1 {
+    font-size: 40px;
+    margin-top: 70px;
+  }
+
+  .bnnr-1 .bnnr_content {
+    background: none;
+  }
+
+  .bnnr_content a {
+    padding: 0 10px;
+  }
+
+  .bnnr-Position {
+    min-height: 400px;
+  }
+
+  .bnnr_content {
+    padding-top: 25%;
+  }
+
+
+  /* =========End of banner-Section========= */
+
+  /* ===About Section====== */
+  #about,
+  #gallery,
+  #team {
+    padding: 40px 0 0;
+  }
+
+  .abt-txt p {
+    padding: 16px 0px 20px;
+  }
+
+  /* ===bottom - top=== */
+  .top-btn {
+    font-size: 2.5em;
+    bottom: 2rem;
+    right: 1.5rem;
+  }
+}
+
+
+/* =====[576px] &[767px]==== */
+
+
+@media (min-width: 320px) and (max-width: 766px) {
+  .para {
+    margin-top: 10%;
+  }
+
+  .spaceX {
+    margin-bottom: 10%;
+  }
+}
+
+
+
+/* =====[768px] &[991px]==== */
+@media (min-width: 768px) and (max-width: 991px) {
+  #header .navbar {
+    padding: 5px;
+  }
+
+  .navbar-brand {
+    top: -15px;
+  }
+
+  #header.position-fixed .navbar-brand {
+    top: -5px;
+    padding: 0px 30px;
+  }
+
+  .About_vdo {
+    margin-top: 30px;
+  }
+
+  .serv-section-2:before {
+    height: 60px;
+    width: 60px;
+  }
+
+  .serv-section-2-icon {
+    position: absolute;
+    top: -7px;
+    right: 5px;
+    max-width: 100px;
+    z-index: 1;
+    text-align: center;
+  }
+
+  .serv-section-2-icon i {
+    color: #f9b023;
+    font-size: 22px;
+    line-height: 65px;
+    transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+  }
+
+  .serv-section-2 p {
+    padding-right: 0px;
+  }
+
+
+
+}

@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="description" content="A Project For Class Assignment">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript,PHP">
+    <meta name="author" content="Rezwan Hossain">
+    <title>KoWork</title>
+    <!-- Faveicon -->
+    <link rel="icon" type="image/png" href="images/yk.jpg">
+    <!-- google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,500&display=swap" rel="stylesheet">
+    <!-- All min CSS version -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- FlatIcon CSS -->
+    <link rel="stylesheet" href="font/flaticon.css">
+    <!-- Bootstrap Min CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Slick CSS -->
+    <link rel="stylesheet" href="css/slick.css">
+    <!-- Youtube Popup CSS -->
+    <link rel="stylesheet" href="css/YouTubePopUp.css">
+    <!-- Venobox CSS  -->
+    <link rel="stylesheet" href="css/venobox.css" type="text/css" media="screen" />
+    <!-- ColorFull TAb min css -->
+    <link rel="stylesheet" href="css/colorfulTab.min.css" />
+    <!-- Custom Style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Responsive Style css  -->
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="150" data-spy="scroll" data-target=".navbar"
+    data-offset="150">
+
+    <!-- =======header Part======= -->
+    <header id="header">
+        <nav class="navbar navbar-expand-lg navbar-light Main_nav">
+            <div class="container">
+                <a href="index.html" class="navbar-brand">
+                    <div class="logo"><span>Ko</span>Work</div>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item active">
+                            <a href="index.html" class="nav-link">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-item ">
+                            <a href="space.html" class="nav-link">
+                                Spaces
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- =======End of header Part======= -->
+
+    <!-- ========Gallery Section=========== -->
+
+    <section id="gallery" class="list">
+        <div class="section_title">
+            <!-- <h2>Shared Spaces</h2> 
+            <span class="line-2"></span>-->
+        </div>
+        <!-- ======= Space List ======= -->
+        <div class="container">
+            <div class="row mt-60">
+                <div class="col-lg-4 col-md-4 col-sm-12">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="list"
+                            href="#list-home" role="tab" aria-controls="home">Hub Dhaka</a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="list"
+                            href="#list-profile" role="tab" aria-controls="profile">Moar</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="list"
+                            href="#list-messages" role="tab" aria-controls="messages">inHouse</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-settings" role="tab" aria-controls="settings">Locus</a>
+                        <a class="list-group-item list-group-item-action" id="list-about-list" data-toggle="list"
+                            href="#list-about" role="tab" aria-controls="about">Daffodil Business Incubator
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-portfolio" role="tab" aria-controls="portfolio">MadHub
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-office" role="tab" aria-controls="office">Office Suites
+                        </a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-shuru" role="tab" aria-controls="warr">Shuru Campus</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-bonik" role="tab" aria-controls="warr">Bonik</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-open" role="tab" aria-controls="warr">Open</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-wealth" role="tab" aria-controls="warr">WealthX Group</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-business" role="tab" aria-controls="warr">The Business Center</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-fanush" role="tab" aria-controls="warr">Fanush Shared Space</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="list"
+                            href="#list-vista" role="tab" aria-controls="warr">Vista Co-Working</a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-8 col-md-8 col-sm-12">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-home" role="tabpanel"
+                            aria-labelledby="list-home-list">
+                            <p class="para">Hubdhaka offers a shared hassle-free productive work environment for
+                                startups,
+                                freelancers and online professionals who are sick of working in loud bustling cafes or
+                                at unproductively home alone.
+
+                                Featuring High speed internet with emergency backup connection and power, ensuring your
+                                online work will never be interrupted, In-house multimedia system, complimentary coffee,
+                                that can be made from the on-site kitchen facilities, printing, scanning and copying
+                                facilities and a 130 person event space that can be hired out for workshops or community
+                                events</p>
+                            <a href="http://www.hubdhaka.com/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel"
+                            aria-labelledby="list-profile-list">
+                            <p class="para">
+                                Moar is a coworking space in the popular Banani area of Dhaka. They have a branch in
+                                Dhanmondi as well. A co-working space with all the necessary facilities
+                                required.
+                            </p>
+                            <a href="http://www.moarbd.com/" target="_blank"><button class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel"
+                            aria-labelledby="list-messages-list">
+                            <p class="para">
+                                inHouse is Bangladesh's first idea village, a collaboration space for entrepreneurs,
+                                artists, designers, writers and just about anyone who has got some spark.
+
+                                A platform that houses a co-working space, library, tailored consultancy and mentoring
+                                services, classroom - and all the resources that you need to take your vision forward.
+                                It's cost effective and provides the right environment and community to nurture that
+                                spark of brilliance. And here's the best part. ​​It's happening now, and anyone can be a
+                                part of it.
+
+                                inHouse is a one-stop solution for entrepreneurs. As a collaboration space, inHouse
+                                accommodates the right tools, resources and knowledge that is important to build,
+                                network and sustain the next generation of creative entrepreneurs and leaders. With an
+                                organic and active engagement of youth in its premises, the inHouse is the epicenter for
+                                anyone with entrepreneurial aspirations and a passion for social change.
+                            </p>
+                            <a href="https://www.facebook.com/inhousebd/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <p class="para">
+                                Locus offers flexible office space for your business needs at Banani road 11, heart of
+                                the new business location at Dhaka.
+
+                                At Locus you have 2700 sqft. of dedicated serviced international standard flexible
+                                office space spanning two floors for you to use.
+
+                                You can rent our facility for an hour, day, week, month or years.
+
+                                You can rent a shared desk space for 40 hours / month for 3500 taka or have a desk for
+                                your own for 20,000 taka/month.
+
+                                You can use our office space as a walk-in business centre or be a resident at our office
+                                and use our address as your office address.
+
+                                Our flexible office space is setup keeping you in mind so that you can be productive and
+                                healthy at the same time. We have ergonomically designed tables, chairs and height
+                                adjustable tables all for you to use.
+
+                                When you need some time out from your busy work for your creativity to flow, you can use
+                                our garden balcony to relax and unwind with a cup of coffee.
+                            </p>
+                            <a href="http://www.locusbd.com/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-about" role="tabpanel" aria-labelledby="list-settings-list">
+                            <p class="para">
+                                Those who are finding an economic coworking space near Dhanmondi Daffodil Business
+                                Incubator will be the best choice for them. The office is just got a brand new look.
+                                Your dream to be an entrepreneur can start here. On the same floor, a venture capital is
+                                available for you. You will get access to talk with the VC team for your advance support
+                                and mentoring.
+                            </p>
+                            <a href="http://incubator.daffodilvarsity.edu.bd/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-portfolio" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <p class="para">
+                                We are the frontiers of Tech Hub facilitators by means of availing spaces to Start-up
+                                your businesses in TECH as well as life cycle consultation of every business from
+                                initiation to fruition. We have equipped ourselves to roll out co-working spaces for our
+                                ever growing tech industry. Alongside us being within the tech space and availing what’s
+                                best in terms facilities in this segment we want to set definitive standards within this
+                                industry. Our team boasts some of the most experienced, skilled and savvy personnel in
+                                the tech industry.
+                            </p>
+                            <a href="https://www.facebook.com/madhubbangladesh/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-office" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <p class="para">
+                                We are Office Suites, providing one stop solution to your office needs. Office Suites
+                                offers premium, serviced office space for rent at affordable prices which includes all
+                                utilities and cost, a prestigious office address, no set up hassles, plug and play
+                                office space in Banani, Dhaka.
+
+                                It will be a pleasure to invite you to showcase our office space and have a further
+                                discussion about what we can offer you. We are looking forward to hearing from you and
+                                if you have question, please feel free to contact us or just visit our website and ask
+                                for a callback
+                            </p>
+                            <a href="https://www.facebook.com/officesuitesbd/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-shuru" role="tabpanel" aria-labelledby="list-settings-list">
+                            <p class="para">
+                                Shuru Campus is a co-working facility that endeavors to provide a unique space and
+                                environment for businesses, start-ups and both, independent & travelling professionals.
+                                Here, they can share a common workspace, as well as other office services. We provide a
+                                professional, tranquil and buoyant atmosphere that enables work enhancement, enjoyment &
+                                empowerment.
+
+                                Looking for a head-start in your business? Looking to start a company? Have an immediate
+                                problem with space? Looking for somewhere to work when you are travelling? Contact Shuru
+                                Campus. Let us help you deal with your issues
+                            </p>
+                            <a href="https://www.shurucampus.com/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-bonik" role="tabpanel" aria-labelledby="list-settings-list">
+                            <p class="para">
+                                Bonik is working with the concept of co-working for freelancers, entrepreneurs, and
+                                startups to find themselves confined to the walls of their homes to be informed that
+                                there is a solution to improve their business, productivity and happiness.
+
+                                Bonik is modern facilitates coworking office space located in Merul Badda, Dhaka. It
+                                facilitates high speed internet, 24X7 office access, generator backup, modern look and
+                                feel, hangout zone, youtube studio, workshop and seminar room.
+                            </p>
+                            <a href="https://bonik.biz/" target="_blank"><button class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-open" role="tabpanel" aria-labelledby="list-settings-list">
+                            <p class="para">
+                                OPEN is a co-working space designed to serve freelancers and startups with a vibrant and
+                                friendly ecosystem providing a seamless workflow.
+
+                                The name “Open” was decided with the idea of our team being open to new ideas, open for
+                                all individuals, both students and independent contractors alike, open space provided
+                                for work, and our business being active 24/7.
+
+                                OPEN is created to help individual contractors, freelancers and businesses that require
+                                a fully operational working hub with a skill and business development assistance at all
+                                times with varying office options and packages to chose from
+                            </p>
+                            <a href="http://www.workatopen.com/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-wealth" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <p class="para">
+                                WealthX Group is a co-working space designed to serve freelancers and startups with a
+                                vibrant and friendly ecosystem providing a seamless workflow.
+
+                                The name “WealthX Group” was decided with the idea of our vision to make profitable
+                                online business.
+
+
+                                WealthX Group is created to help individual contractors, freelancers and businesses that
+                                require a fully operational working hub with a skill and business development assistance
+                                at all times with varying office options and packages to chose from
+                            </p>
+                            <a href="http://www.wealthxgroup.com/co-working/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-business" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <p class="para">
+                                The Business Center is a new venture by building technology and ideas limited (bti)
+                                which offers custom solutions to your ever changing office space requirements.
+
+                                Our serviced office allows you to focus on your core business, while we do the office
+                                management for you. You also have access to high quality office equipment and well
+                                trained staff who will take care of all your office needs.
+
+                                If you are starting a new business or planning for expansion, chances are that looking
+                                for a suitable office space in a prime location might become a nuisance for you. If you
+                                are looking for a flexible option for your business ,then you can try our private office
+                                suites, co-working space, and conference room.
+                            </p>
+                            <a href="https://www.thebusinesscenterbd.com/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-fanush" role="tabpanel"
+                            aria-labelledby="list-settings-list">
+                            <p class="para">
+                                Funush is an online based technology firm based in Mirpur DOHS, Dhaka. As we have more
+                                space than required, we are sharing out our extra workspace with small startups, online
+                                business or freelancers (who requires similar infrastructure support.)
+
+                                Our office has an uninterrupted power supply, high-speed internet, and kitchen facility.
+                                Depending on demand in-house lunch facility can be provided.
+
+                                There is a meeting room facility for members based on availability. The location is
+                                directly connected to farmgate through trust bus service and within walking distance of
+                                Mirpur 12.
+                            </p>
+                            <a href="" target="_blank"><button class="spaceX">Contact</button></a>
+                        </div>
+                        <div class="tab-pane fade" id="list-vista" role="tabpanel" aria-labelledby="list-settings-list">
+                            <p class="para">
+                                With the increasing number of entrepreneurs, the demand for office space is increasing.
+                                Since many rising entrepreneurs can not afford to rent an independent office place hence
+                                they have to rely on the co working places which allows multiple organizations to work
+                                under a roof. There are several co working with excellent design and great facilities.
+                                However all these highly decorated places are costly as well and many entrepreneurs
+                                still are struggling to find a place within their budget. Hence we designed a co-working
+                                place in a way that has all the necessary amenities for a perfect work environment
+                                within the affordability of the rising entrepreneurs.
+                            </p>
+                            <a href="https://www.facebook.com/Vistacoworking/" target="_blank"><button
+                                    class="spaceX">Contact</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- =======End of Space List=========== -->
+
+
+    <!-- =======Counter Section================= -->
+    <section id="counter">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-sm-6 col-6">
+
+                    <p class="space">Get Connected!</p>
+                </div>
+                <div class="col-sm-6 col-6">
+
+                    <a class="bt" href="https://www.facebook.com/groups/506071173499389/" target="_blank"><button
+                            class="find">
+                            Join Group
+                        </button></a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- =======End of Counter Section================= -->
+
+    <!-- ========== White Space Section===============-->
+
+    <section id="logo">
+        <div class="container">
+            <div class="row logo-slide">
+            </div>
+        </div>
+    </section>
+
+    <!-- ========== End of White Space Section===============-->
+
+    <!-- =========footer Section============ -->
+
+    <footer id="contact">
+        <section id="footer_part">
+            <div class="footer-background-shadow">
+                <div class="ftr_logo_area">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <div class="logo ftr"><span>Ko</span>Work</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="ftr_bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-sm-12 text-center">
+                                <p>Copyright &copy; All rights reserved by <span>Kowork.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+    <!-- =========End of footer Section============ -->
+
+    <!-- =====TOP - BOTTOM -->
+    <div class="top-btm">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+    <!-- BOTTOM - END -->
+    <!-- JavaScript-Verstion -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <!-- Popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- Bootstrap Min Js -->
+    <script src="js/bootstrap.min.js"></script>
+    <!-- Slick min js -->
+    <script src="js/slick.min.js"></script>
+    <!-- Youtube Popup Jquery js -->
+    <script src="js/YouTubePopUp.jquery.js"></script>
+    <!-- Venobox min js -->
+    <script src="js/venobox.min.js"></script>
+    <!-- Waypoints min Js -->
+    <script src="js/waypoints.min.js"></script>
+    <!-- Counter min js -->
+    <script src="js/jquery.counterup.min.js"></script>
+    <!-- ColorFull TAb min js -->
+    <script src="js/colorfulTab.min.js"></script>
+    <!--  Main Custom Js-->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
